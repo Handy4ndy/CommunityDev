@@ -1,15 +1,17 @@
 // NFT Mint test script
 
-require('dotenv').config();
 const xrpl = require('xrpl');
 
 async function main() {
+    // Declare seed directly in the script
+    const SEED = 'your_seed_here'; // Replace with your actual seed
+
     // Connect to the XRPL testnet
     const client = new xrpl.Client('wss://s.altnet.rippletest.net:51233');
     await client.connect();
 
     // Load wallet from seed
-    const wallet = xrpl.Wallet.fromSeed(process.env.SEED);
+    const wallet = xrpl.Wallet.fromSeed(SEED);
 
     // Define the transaction
     const transaction = {

@@ -38,15 +38,16 @@
   
   USAGE:
     1. Set SEED to your testnet seed (replace placeholder)
-    2. Provide URI in hexadecimal format (e.g., from xrpl.convertStringToHex())
+    2. Provide URI in hexadecimal (string) format (e.g., from xrpl.convertStringToHex())
     3. Run script to mint and submit transaction
   
   RETURNS:
     Transaction result with confirmation and ledger index
 
   RESOURCES:
-    - NFTokenMint : https://xrpl.org/docs/references/protocol/transactions/types/nftokenmint
+    - NFTokenMint Docs : https://xrpl.org/docs/references/protocol/transactions/types/nftokenmint
     - Testing Faucet : https://xrpl.org/resources/dev-tools/xrp-faucets
+    - URI Conversion : https://transia-rnd.github.io/xrpl-hex-visualizer/
   
   =====================================================================
 */

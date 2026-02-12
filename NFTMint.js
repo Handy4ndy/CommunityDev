@@ -1,9 +1,8 @@
 // NFT Mint test script
-
 const xrpl = require('xrpl');
 
 async function main() {
-    // Declare seed directly in the script
+   
     const SEED = 'your_seed_here'; // Replace with your actual seed
 
     // Connect to the XRPL testnet
